@@ -19,14 +19,14 @@ By following this project, you'll gain hands-on experience in building a product
 ### Kubeflow
 Kubeflow is an open-source end-to-end MLOps platform started by Google a couple of years ago. It runs on any CNCF-compliant Kubernetes and enables professionals to develop and deploy machine learning models. Kubeflow is a suite of tools that automates machine learning workflows, in a portable, reproducible and scalable manner. 
 
-![Kubeflow architecture](/Kubeflow_MLFlow/images/kubeflow.png)
+![Kubeflow architecture](./images/kubeflow.png)
 Credits: Canonical
 
 
 ### MLFlow
 MLFlow is an open-source platform, started by DataBricks a couple of years ago. It is used for managing machine learning workflows. It has various functions, such as experiment tracking. MLFlow can be integrated within any existing MLOps process, but it can also be used to build new ones. It provides standardised packaging, to be able to reuse the models in different environments. However, the most important part is the model registry component, which can be used with different ML tools. It provides guidance on how to use machine learning workloads, without being an opinionated tool that constrains users in any manner.
 
-![MLFlow](/Kubeflow_MLFlow/images/mlflow.png)
+![MLFlow](./images/mlflow.png)
 Credits: Canonical
 
 # Environment Setup
