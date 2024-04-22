@@ -57,6 +57,6 @@ In this project, we will be using Kubernetes to orchestrate and manage our machi
 
 ## 3. Setting up MLFlow
 
-### Additional Resources:
+## Additional Resources:
 - [Rancher Desktop Documentation](https://docs.rancherdesktop.io/)
 - [k3s Documentation](https://docs.k3s.io/)
