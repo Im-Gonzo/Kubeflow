@@ -74,7 +74,9 @@ Before diving into Kubeflow and MLFlow setup, let's ensure our Kubernetes enviro
      kubectl get namespaces
      ```
    You should see `ml-lab` listed among the namespaces.
+   ![kubectl get namespaces expected output](./images/kubectl_namespaces.png)
 
+   
 Now that our working environment is set up and configured, we're ready to proceed with setting up Kubeflow and MLFlow for our machine learning workflows.
 
 ## 2. Setting up Kubeflow
