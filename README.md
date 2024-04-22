@@ -34,7 +34,7 @@ Credits: Canonical
 ## 1. Setting up Kubernetes
 In this project, we will be using Kubernetes to orchestrate and manage our machine learning workflows. To get started, we'll need to set up a local Kubernetes cluster. We'll be using k3s, a lightweight Kubernetes distribution, provided by Rancher Desktop, which offers an easy-to-use solution for running Kubernetes on your local machine.
 
-### Steps to Set Up Kubernetes with Rancher Desktop:
+### 1.1 Steps to Set Up Kubernetes with Rancher Desktop:
 1. **Install Rancher Desktop:**
    Follow the installation guide for Rancher Desktop based on your operating system:
    - Linux: [Installation Guide](https://docs.rancherdesktop.io/getting-started/installation#windows)
@@ -52,6 +52,30 @@ In this project, we will be using Kubernetes to orchestrate and manage our machi
     - Expected output:
     ![kubectl cluster-info terminal output](./images/kubectl_cmd.png)
 
+### 1.2 Setting up Working Environment
+Before diving into Kubeflow and MLFlow setup, let's ensure our Kubernetes environment is properly configured:
+
+1. **Create Namespace:**
+   - Open your terminal.
+   - Run the following command to create a namespace for your project:
+     ```
+     kubectl create namespace ml-lab
+     ```
+
+2. **Set Namespace as Default (Optional):**
+   - If you prefer working within a specific namespace by default, you can set it using the following command:
+     ```
+     kubectl config set-context --current --namespace=ml-lab
+     ```
+
+3. **Verify Namespace Creation:**
+   - Confirm that the namespace is created successfully by running:
+     ```
+     kubectl get namespaces
+     ```
+   You should see `ml-lab` listed among the namespaces.
+
+Now that our working environment is set up and configured, we're ready to proceed with setting up Kubeflow and MLFlow for our machine learning workflows.
 
 ## 2. Setting up Kubeflow
 
