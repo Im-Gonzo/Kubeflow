@@ -31,8 +31,26 @@ Credits: Canonical
 
 # Environment Setup
 
-## 1. K3s (Lightweight Kubernetes)
+## 1. Setting up Kubernetes
+In this project, we will be using Kubernetes to orchestrate and manage our machine learning workflows. To get started, we'll need to set up a local Kubernetes cluster. We'll be using k3s, a lightweight Kubernetes distribution, provided by Rancher Desktop, which offers an easy-to-use solution for running Kubernetes on your local machine.
 
-## 2. Setting up Kubeflow
+### Steps to Set Up Kubernetes with Rancher Desktop:
+1. **Install Rancher Desktop:**
+   Follow the installation guide for Rancher Desktop based on your operating system:
+   - Linux: [Installation Guide](https://docs.rancherdesktop.io/getting-started/installation#windows)
+   - macOS: [Installation Guide](https://docs.rancherdesktop.io/getting-started/installation#macos)
+   - Windows: [Installation Guide](https://docs.rancherdesktop.io/getting-started/installation#windows)
 
-## 3. Setting up MLFlow
+2. **Start Rancher Desktop:**
+   Once installed, start Rancher Desktop from your system tray (macOS/Windows) or using the command line (Linux).
+
+3. **Verify Cluster Setup:**
+   - Once the cluster is set up, verify its status by running the following command in your terminal:
+     ```
+     kubectl cluster-info
+     ```
+
+
+### 2. Setting up Kubeflow
+
+### 3. Setting up MLFlow
