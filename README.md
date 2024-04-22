@@ -53,10 +53,10 @@ In this project, we will be using Kubernetes to orchestrate and manage our machi
     ![kubectl cluster-info terminal output](./images/kubectl_cmd.png)
 
 
+## 2. Setting up Kubeflow
+
+## 3. Setting up MLFlow
+
 ### Additional Resources:
 - [Rancher Desktop Documentation](https://docs.rancherdesktop.io/)
 - [k3s Documentation](https://docs.k3s.io/)
-
-### 2. Setting up Kubeflow
-
-### 3. Setting up MLFlow
